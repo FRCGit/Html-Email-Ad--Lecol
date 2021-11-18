@@ -1,0 +1,475 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>HTML Email Template Boilerplate</title>
+  <!-- REMOVES A-TAG UNDERLINE IN WINDOWS 10 MAIL -->
+  <!--[if (mso)|(mso 16)]>
+      <style type="text/css">
+        a {text-decoration: none;}
+      </style>
+    <![endif]-->
+
+
+
+  <!-- REMOVES SPACING ON SIDES OF IMAGE, OL & WIN -->
+  <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        table {border-collapse: collapse !important;}
+      </style>
+    <![endif]-->
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+    /* global reset */
+    /* center tag */
+    /* main table */
+    @media screen and (max-width: 659px) {
+      .column {
+        width: 560px !important;
+        max-width: 100% !important;
+        /* changed from 320px */
+      }
+
+      .padding-l {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 20px !important;
+      }
+
+      .padding-r {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+    }
+
+    @media screen and (max-width: 399.98px) {}
+
+
+
+    /* Custom Dark Mode Colors (remove comment to enable) */
+
+    /* :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+
+    @media (prefers-color-scheme: dark) {
+
+      body,
+      center,
+      table,p {
+        background: #2d2d2d !important;
+        color: #ffffff !important;
+      }
+
+      .darkmode-transparent {
+        background-color: transparent !important;
+      }
+    } */
+  </style>
+</head>
+
+<body style="Margin:0;padding:0;background-color:#000000;min-width:100%;">
+  <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        body {background-color: #000000 !important;}
+            body,table,td,p,a {font-family: sans-serif, Arial, Helvetica !important;}
+      </style>
+    <![endif]-->
+
+  <center class="wrapper" style="background-color:#000000;width:100%;table-layout:fixed;">
+
+    <!-- Preheader (remove comment) -->
+    <div
+      style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+      This is my preheader text!!!!!!!
+    </div>
+    <!-- End Preheader (remove comment) -->
+    <!--[if (gte mso 9) | (IE)]>
+          <table width="600" align="center" role="presentation" style="border-spacing: 0; color: #565656;">
+            <tr>
+              <td style="padding: 0;">
+        <![endif]-->
+
+
+    <table class="main" align="center"
+      style="background-color:#ffffff;color:#e8e6e3;width:100%;max-width:660px;Margin:0 auto;border-spacing:0;padding:0;font-family:'Roboto', Arial, sans-serif;">
+
+      <tr>
+        <td style="padding:0;background-color:#000000" bgcolor="#000000">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation" bgcolor="#000000"
+            style="border-spacing:0;background-color:#000000">
+            <!-- HEADER -->
+            <tr>
+              <td style="padding:0;background-color:#000000" bgcolor="#000000">
+                <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation" bgcolor="#000000"
+                  style="border-spacing:0;background-color:#000000">
+                  <tr>
+                    <td
+                      style="padding:0;text-align: center;font-size: 0;padding-top: 60px;padding-bottom: 30px;background-color:#000000"
+                      bgcolor="#000000">
+                      <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                          src="https://i.emlfiles.com/cmpimg/9/7/9/6/4/2/files/109805_logo22x.png " alt="logo"
+                          width="140" style="border:0;max-width: 100%;"></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- BANNER -->
+            <tr>
+              <td style="padding:0;background-color:#000000" bgcolor="#000000">
+                <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation" bgcolor="#000000"
+                  style="border-spacing:0;background-color:#000000">
+                  <tr>
+                    <td style="padding:0;text-align: center;font-size: 0;padding-top: 60px;background-color:#000000"
+                      bgcolor="#000000">
+                      <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                          src="https://r1-scaler.ddglib.com/vedimage/cmpimg/9/7/9/6/4/2/files/744939_project_aero_email_header.jpg?w=660&cid=618836&uid=246979"
+                          alt="banner" width="660" style="border:0;max-width: 100%;display: block;"></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- INFO 1 -->
+      <tr>
+        <td style="padding:0;background-color: #ffffff;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing:0;">
+            <tr>
+              <td align="center" style="padding: 20px;">
+                <p style="Margin:0;font-size: 24px;font-weight: bold;font-style: italic;color: #333333;">ENGINEERED
+                  FOR SPEED
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" style="padding:0;padding-left: 15px;padding-right: 15px;padding-bottom: 40px;">
+                <p style="Margin:0;font-size: 16px;color: #333333;Margin-top: 0;">
+                  Co-developed with McLaren’s world-leading aerodynamicists, Project Aero combines aerodynamic
+                  engineering with technical apparel to deliver kit that redefines fast. Wind tunnel tested and
+                  WorldTour winning - this collection sets new standards in aero and speed.</p>
+              </td>
+            </tr>
+
+
+            <!-- lotus notes mso and td for windows 10 width -->
+            <tr>
+              <td align="center" style="text-align: center;padding-bottom: 70px;padding-top: 30px;">
+                <table align="center" border="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+                  <tr>
+                    <td bgcolor="#ff9800" width="250" height="40" style="color:#ffffff">
+                      <div>
+                        <center>
+                          <!--[if mso]>
+                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.example.com" style="height:40px;v-text-anchor:middle;width:250px;" strokecolor="#ff9800" fillcolor="#ff9800">
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;">LEARN MORE</center>
+                          </v:rect>
+                        <![endif]--><a href="http://www.example.com"
+                            style="background-color:#ff9800;border:1px solid #ff9800;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:16px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;mso-hide:all;"><span
+                              style="color: #ffffff;text-decoration: none;">LEARN MORE
+                            </span></a>
+                        </center>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+
+
+          </table>
+        </td>
+      </tr>
+      <!-- BANNER 2 -->
+      <tr>
+        <td style="padding:0;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing:0;">
+            <tr>
+              <td style="padding:0;">
+                <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                    src="https://r1-scaler.ddglib.com/vedimage/cmpimg/9/7/9/6/4/2/files/744937_project_aero_email_12.jpg?w=660&cid=618836&uid=246979"
+                    alt="" width="660" style="border:0;max-width: 100%;display: block;"></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- INFO 2 -->
+      <tr>
+        <td style="padding:0;background-color: #ffffff;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing:0;">
+            <tr>
+              <td align="center" style="padding: 20px;">
+                <p style="Margin:0;font-size: 24px;font-weight: bold;font-style: italic;color: #333333;">WIND TUNNEL
+                  TUNED</p>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" style="padding:0;padding-left: 15px;padding-right: 15px;padding-bottom: 40px;">
+                <p style="Margin:0;font-size: 16px;color: #333333;Margin-top: 0;">
+                  We worked with McLaren’s world-leading aerodynamicists to ensure this collection offers verifiable
+                  performance. This kit represents aero without the hot air. Scientifically proven as a step change in
+                  aero cycling apparel, this collection speaks for itself in the race of truth.</p>
+              </td>
+            </tr>
+            <!-- button -->
+            <tr>
+              <td align="center" style="text-align: center;padding-bottom: 70px;padding-top: 30px;">
+                <table align="center" border="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+                  <tr>
+                    <td bgcolor="#ff9800" width="250" height="40" style="color:#ffffff">
+                      <div>
+                        <center>
+                          <!--[if mso]>
+                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://www.example.com" style="height:40px;v-text-anchor:middle;width:300px;" strokecolor="#ff9800" fillcolor="#ff9800">
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;">LEARN MORE</center>
+                          </v:rect>
+                        <![endif]--><a href="http://www.example.com"
+                            style="background-color:#ff9800;border:1px solid #ff9800;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:16px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;"><span
+                              style="color: #ffffff;text-decoration: none;">SHOP THE COLLECTION
+                            </span></a>
+                        </center>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+
+          </table>
+        </td>
+      </tr>
+      <!-- BANNER 3 -->
+      <tr>
+        <td style="padding:0;background-color: #ffffff;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing:0;">
+            <tr>
+              <td style="padding:0;">
+                <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                    src="https://r1-scaler.ddglib.com/vedimage/cmpimg/9/7/9/6/4/2/files/744938_project_aero_email_13.jpg?w=660&cid=618836&uid=246979"
+                    alt="" width="660" style="border:0;max-width: 100%;"></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- INFO 3 -->
+      <tr>
+        <td style="padding:0;background-color: #ffffff;">
+          <table width="100%" align="center" cellspacing="0" cellpadding="0" role="presentation"
+            style="border-spacing:0;">
+            <tr>
+              <td style="padding: 20px;" align="center">
+                <p style="Margin:0;font-size: 24px;font-weight: bold;font-style: italic;color: #333333;">PUSHING THE
+                  BOUNDARY
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="padding:0;text-align: center;color: #333333;padding-left: 18px;padding-right: 18px;padding-bottom: 58px;"
+                align="center">
+                <p style="Margin:0;line-height: 25px;font-size: 16px;color: #333333;">
+                  Implementing McLaren’s aero research on boundary layers, the Le Col x McLaren Project Aero
+                  Collection’s detailed approach to mapping every millimetre has driven advances in aerodynamic
+                  performance and broken new ground in cycling.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- TWO COLUMNS FLUID/RESPONSIVE -->
+      <tr>
+        <td style="padding:0;" bgcolor="#ffffff">
+          <table width="100%" style="border-spacing: 0;" role="presentation">
+            <tr>
+              <td class="two-columns" style="text-align:center;font-size:0;padding:0;">
+                <!--[if (gte mso 9)|(IE)]>
+                      <table width="100%" style="border-spacing: 0;" role="presentation">
+                        <tr>
+                          <td width="330" valign="top" style="padding: 0;">
+                    <![endif]-->
+                <table class="column" width="100%"
+                  style="width:100%;max-width:330px;display:inline-block;vertical-align:top;border-spacing: 0;"
+                  role="presentation">
+                  <tr>
+                    <td class="padding-l" style="padding:0;padding-left:30px;padding-right:10px;">
+                      <table class="content" width="100%" style="border-spacing: 0;" role="presentation">
+                        <tr>
+                          <td style="padding:0;">
+                            <a href="https://example.com" style="Margin:0;text-decoration:none;"><img class="mens"
+                                src="https://r1-scaler.ddglib.com/vedimage/cmpimg/9/7/9/6/4/2/files/744940_email_m_w_.jpg?w=660&cid=618836&uid=246979"
+                                alt="" width="290"
+                                style="border:0;width:100% !important;max-width: 100%;display: block;"></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td width="330" valign="top" style="padding: 0;">
+                    <![endif]-->
+                <table class="column" width="100%"
+                  style="width:100%;max-width:330px;display:inline-block;vertical-align:top;border-spacing: 0;"
+                  role="presentation">
+                  <tr>
+                    <td class="padding-r" style="padding:0;padding-left:10px;padding-right:30px;">
+                      <table class="content" width="100%" style="border-spacing: 0;" role="presentation">
+                        <tr>
+                          <td style="padding:0;">
+                            <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                                class="womens"
+                                src="https://r1-scaler.ddglib.com/vedimage/cmpimg/9/7/9/6/4/2/files/744941_email_m_w_2.jpg?w=660&cid=618836&uid=246979"
+                                alt="" width="290"
+                                style="border:0;width:100% !important;max-width: 100%;display: block;"></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                  </tr>
+                </table>
+                    <![endif]-->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- LINKS -->
+      <tr>
+        <td style="padding:0;background-color: #ffffff; color: #333333;text-align: center;" align="center">
+          <table width="100%" style="border-spacing: 0;">
+            <tr>
+              <td style="padding:0;padding-top: 80px;padding-bottom: 40px;" align="center">
+                <a href="https://example.com" style="Margin:0;text-decoration:none;"><img
+                    src="https://i.emlfiles.com/cmpimg/9/7/9/6/4/2/files/717356_ridefaster.png" alt="" width="270"
+                    style="border:0;max-width: 270px;display: block;"></a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0;padding-bottom: 30px;" align="center">
+                <a href="https://example.com" style="Margin:0;text-decoration:none;"><img
+                    src="https://i.emlfiles.com/cmpimg/9/7/9/6/4/2/files/717355_lecollogo.png" alt="" width="125"
+                    style="border:0;max-width: 125px;display: block;" border="0"></a>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding: 0;" align="center">
+                <table width="200" style="border-spacing: 0;background-color: #ffffff;" role="presentation">
+                  <tr>
+                    <td style="padding:0;padding-left: 5px;padding-right: 5px;">
+                      <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                          src="https://i.emlfiles.com/cmpimg/9/7/9/6/4/2/files/717351_fb.png" alt="Facebook"
+                          title="Facebook" width="32" style="border:0;"></a>
+                    </td>
+                    <td style="padding:0;padding-left: 5px;padding-right: 5px;">
+                      <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                          src="https://i.emlfiles.com/cmpimg/9/7/9/6/4/2/files/717354_twitter.png" alt="Facebook"
+                          title="Facebook" width="32" style="border:0;"></a>
+                    </td>
+                    <td style="padding:0;padding-left: 5px;padding-right: 5px;">
+                      <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                          src="https://i.emlfiles.com/cmpimg/9/7/9/6/4/2/files/717352_insta.png" alt="Facebook"
+                          title="Facebook" width="32" style="border:0;"></a>
+                    </td>
+                    <td style="padding:0;padding-left: 5px;padding-right: 5px;">
+                      <a href="https://example.com" target="_blank" style="Margin:0;text-decoration:none;"><img
+                          src="https://i.emlfiles.com/cmpimg/9/7/9/6/4/2/files/717353_strava.png" alt="Facebook"
+                          title="Facebook" width="32" style="border:0;"></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0;padding-top: 15px;font-size: 12px;padding-bottom: 35px;" align="center">
+                <a href="https://example.com" style="Margin:0;text-decoration: none;color: #000000;"
+                  target="_blank">View in
+                  browser</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- FOOTER -->
+      <tr>
+        <td style="padding:0;background-color: #ffffff; color: #000000;text-align: center;">
+          <table width="100%" style="border-spacing: 0;">
+            <tr>
+              <td
+                style="padding:0;font-size: 11px; font-family: helvetica, sans-serif;text-align: center;color: #000000;">
+                Le Col, The Old Treacle Factory, 24-40 Goodwin Road, London, Shepherd's Bush W12 9JN, United Kingdom
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="font-size: 11px; font-family: helvetica, sans-serif;text-align: center;color: #000000;padding: 10px;">
+                <a href="https://example.com" style="Margin:0;text-decoration: none;color: #000000;"
+                  target="_blank">Contact us
+                  |
+                  Privacy policy | Unsubscribe</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!--[if (gte mso 9) | (IE)]>
+        </td>
+      </tr>
+    </table>
+        <![endif]-->
+
+  </center>
+</body>
+
+</html>
+
+
+<!-- 
+  *try image blocking*
+
+  litmus / IBM Notes 10 (Windows 10) = line under button, change link color? w3?
+  litmus /  T-Online.de (Chrome) /  T-Online.de (Edge)  = double button
+ 
+
+  ++ mobile ++
+  litmus / android 6.0 (android 6.0) = media queries not supported. so column padding needs fix, 
+  litmus / Samsung Mail (Android 6.0... = blue links bottom
+
+
+
+++ darkmode ++
+need fix darkmode for ios
+OL Office 365 Dark (Windo... 
+Outlook 2019 (Windows 10)
+windows 10 darkmode -widnows - logo is white at top
+iphone 11 pro dark ios = font too dark
+
+-->
